@@ -11,6 +11,13 @@ namespace LeapYearReturns.Tests
             Year year = new Year(2000);
             Assert.True(year.IsLeap());
         }
+
+        [Fact]
+        public void ReturnTrueForTwoThousandAndFourHundred()
+        {
+            Year year = new Year(2400);
+            Assert.True(year.IsLeap());
+        }
     }
     
 }

@@ -5,24 +5,14 @@ namespace LeapYearReturns.Tests
 {
     public class LeapYearShould
     {
-        [Fact]
-        public void ReturnTrueForTwoThousand()
-        {
-            Year year = new Year(2000);
-            Assert.True(year.IsLeap());
-        }
-
-        [Fact]
-        public void ReturnTrueForTwoThousandAndFourHundred()
-        {
-            Year year = new Year(2400);
-            Assert.True(year.IsLeap());
-        }
         
-        [Fact]
-        public void ReturnTrueForTwoThousandAndEightHundred()
+        [Theory]
+        [InlineData(2000)]
+        [InlineData(2400)]
+        [InlineData(2800)]
+        public void ReturnTrueForYearsDivisibleByFourHundred(int number)
         {
-            Year year = new Year(2800);
+            Year year = new Year(number);
             Assert.True(year.IsLeap());
         }
         

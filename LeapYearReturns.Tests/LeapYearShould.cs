@@ -16,28 +16,15 @@ namespace LeapYearReturns.Tests
             Assert.True(year.IsLeap());
         }
 
-        [Fact]
-        public void ReturnTrueForTwoThousandTwelve()
+        [Theory]
+        [InlineData(2012)]
+        [InlineData(2036)]
+        [InlineData(1996)]
+        public void ReturnTrueForYearsDivisibleByFour(int number)
         {
-            Year year = new Year(2012);
+            Year year = new Year(number);
             Assert.True(year.IsLeap());
         }
-        
-        [Fact]
-        public void ReturnTrueForTwoThousandThirtySix()
-        {
-            Year year = new Year(2036);
-            Assert.True(year.IsLeap());
-        }
-        
-        [Fact]
-        public void ReturnTrueForNineteenNinetysix()
-        {
-            Year year = new Year(1996);
-            Assert.True(year.IsLeap());
-        }
-
-
         
     }
     

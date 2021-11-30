@@ -11,7 +11,7 @@
 
         public bool IsLeap()
         {
-            if (year == 2000 || year == 2400 || year == 2800)
+            if (year % 400 == 0)
                 return true;
             return false;
         }

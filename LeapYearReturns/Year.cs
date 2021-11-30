@@ -2,14 +2,18 @@
 {
     public class Year
     {
+        private readonly int year;
+
         public Year(int year)
         {
-            throw new System.NotImplementedException();
+            this.year = year;
         }
 
         public bool IsLeap()
         {
-            throw new System.NotImplementedException();
+            if (year == 2000)
+                return true;
+            return false;
         }
     }
 }

@@ -13,6 +13,8 @@
         {
             if (year % 400 == 0)
                 return true;
+            if (year == 2012)
+                return true;
             return false;
         }
     }

@@ -1,0 +1,34 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Globalization.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1053d99a_002Db8f9_002D4ae7_002Da8d3_002Da07ea8c04e67/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReturnTrueForTwoThousand #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::66481D11-09F9-4807-8648-ACB7E2C7E493::net5.0::LeapYearShould.ReturnTrueForTwoThousand&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2f2390c8_002Dd725_002D4625_002D9584_002Deeaf3dda417e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LeapYearShould #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::66481D11-09F9-4807-8648-ACB7E2C7E493::net5.0::LeapYearReturns.Tests.LeapYearShould&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=35973900_002Dfa95_002D4289_002D935d_002Dbdbefbdf0f8b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ReturnTrueForTwoThousand #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::66481D11-09F9-4807-8648-ACB7E2C7E493::net5.0::LeapYearReturns.Tests.LeapYearShould&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5775672b_002D5dcb_002D4d69_002Db522_002Da88934724031/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LeapYearShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::66481D11-09F9-4807-8648-ACB7E2C7E493::net5.0::LeapYearShould&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5dd77aab_002Debe8_002D49e4_002Da6c2_002D8649db8eaff2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReturnTrueForTwoThousand" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::66481D11-09F9-4807-8648-ACB7E2C7E493::net5.0::LeapYearShould.ReturnTrueForTwoThousand&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b732de18_002D05de_002D45b8_002D970a_002D04422b6c7cc3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LeapYearShould #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::66481D11-09F9-4807-8648-ACB7E2C7E493::net5.0::LeapYearShould&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

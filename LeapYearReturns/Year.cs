@@ -11,6 +11,8 @@
 
         public bool IsLeap()
         {
+            if (year == 1900)
+                return false;
             if (year % 400 == 0)
                 return true;
             if (year % 4 == 0)

@@ -23,6 +23,14 @@ namespace LeapYearReturns.Tests
             Assert.True(year.IsLeap());
         }
         
+        [Fact]
+        public void ReturnTrueForTwoThousandThirtySix()
+        {
+            Year year = new Year(2036);
+            Assert.True(year.IsLeap());
+        }
+
+        
     }
     
 }

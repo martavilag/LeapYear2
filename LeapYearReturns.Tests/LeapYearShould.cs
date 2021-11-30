@@ -25,28 +25,17 @@ namespace LeapYearReturns.Tests
             Year year = new Year(number);
             Assert.True(year.IsLeap());
         }
+        
+        [Theory]
+        [InlineData(1900)]
+        [InlineData(2200)]
+        [InlineData(2300)]
+        public void ReturnFalseForYearsDivisibleByFourAndHundred(int number)
+        {
+            Year year = new Year(number);
+            Assert.False(year.IsLeap());
+        }
 
-        [Fact]
-        public void ReturnFalseForYearOneThousandNineHundred()
-        {
-            Year year = new Year(1900);
-            Assert.False(year.IsLeap());
-        }
-        
-        [Fact]
-        public void ReturnFalseForYearTwoThousandTwoHundred()
-        {
-            Year year = new Year(2200);
-            Assert.False(year.IsLeap());
-        }
-        
-        [Fact]
-        public void ReturnFalseForYearTwoThousandThreeHundred()
-        {
-            Year year = new Year(2300);
-            Assert.False(year.IsLeap());
-        }
-        
     }
     
 }
